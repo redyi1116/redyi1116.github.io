@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人名片</title>
+    <style>
+        body {
+            background: #e3f0ff;
+            color: #1a237e;
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .card-container {
+            display: flex;
+            max-width: 500px;
+            margin: 60px auto;
+            background: #1976d2;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(25, 118, 210, 0.2);
+            overflow: hidden;
+        }
+        .card-left {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #1565c0;
+            padding: 30px 20px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            clip-path: polygon(50% 0%, 95% 35%, 77% 90%, 23% 90%, 5% 35%);
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.3);
+            border: 4px solid #fff;
+            background: #fff;
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .card-right {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px 30px;
+            color: #fff;
+        }
+        .name {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .title {
+            font-size: 1.1em;
+            color: #bbdefb;
+            margin-bottom: 18px;
+        }
+        .info {
+            font-size: 1em;
+            line-height: 1.7;
+            color: #e3f2fd;
+        }
+        @media (max-width: 600px) {
+            .card-container {
+                flex-direction: column;
+                max-width: 95vw;
+            }
+            .card-left, .card-right {
+                padding: 20px 10px;
+            }
+            .avatar {
+                width: 90px;
+                height: 90px;
+                clip-path: polygon(50% 0%, 95% 35%, 77% 90%, 23% 90%, 5% 35%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card-left">
+            <div class="avatar">
+                <img src="KKK.PNG" alt="個人照片">
+            </div>
+        </div>
+        <div class="card-right">
+            <div class="name">林宖逸</div>
+            <div class="title">前端工程師</div>
+            <div class="info">
+                電子郵件：s111416017@stu.ntue.edu.tw<br>
+                電話：0985-925-865<br>
+                地址：台北市信義區仁愛路685號<br>
+                技能：HTML, CSS, JavaScript, React
+            </div>
+        </div>
+    </div>
+</body>
+</html>
