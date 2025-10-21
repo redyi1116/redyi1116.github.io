@@ -48,24 +48,32 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Food');" id="myLink">
         <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Food</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Cocktail');">
         <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Cocktail</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Beer');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Beer</div>
       </a>
     </div>
 
     <div id="Food" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
-      <hr>
-   
-      <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
-      <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
-      <hr>
-      
-
+  <h1><b>Frieds</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.00</span></h1>
+  <p class="w3-text-grey">Crispy golden French fries</p>
+  <hr>
+  <h1><b>Nuggets</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.00</span></h1>
+  <p class="w3-text-grey">Juicy chicken nuggets with dipping sauce</p>
+  <hr>
+  <h1><b>Onion Rings</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.50</span></h1>
+  <p class="w3-text-grey">Crunchy battered onion rings</p>
+  <hr>
+  <h1><b>Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.00</span></h1>
+  <p class="w3-text-grey">Classic cheese pizza with tomato sauce</p>
+  <hr>
+  <h1><b>Cheese Stick</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+  <p class="w3-text-grey">Mozzarella cheese sticks, fried to perfection</p>
     </div>
 
 
@@ -86,7 +94,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <p class="w3-text-grey">Rum, coconut cream, and pineapple juice</p>
     </div>
     
-  </div>
+
+    <div id="Beer" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Classic Lager</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.00</span></h1>
+      <p class="w3-text-grey">Smooth, crisp, and refreshing</p>
+      <hr>
+      <h1><b>Amber Ale</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.00</span></h1>
+      <p class="w3-text-grey">Rich malt flavor with a hint of caramel</p>
+      <hr>
+      <h1><b>Wheat Beer</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+      <p class="w3-text-grey">Light, citrusy, and slightly cloudy</p>
+      <hr>
+      <h1><b>IPA</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.00</span></h1>
+      <p class="w3-text-grey">Hoppy, bold, and aromatic</p>
+      <hr>
+      <h1><b>Stout</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+      <p class="w3-text-grey">Dark, creamy, with roasted coffee notes</p>
+    </div>
 </div>
 
 <!-- About Container -->
@@ -100,14 +124,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     
     <div class="w3-row">
       <div class="w3-col s6">
-        <p>Mon & Tue CLOSED</p>
-        <p>Wednesday 10.00 - 24.00</p>
-        <p>Thursday 10:00 - 24:00</p>
+        <p>Monday 15.30 - 01.00</p>
+        <p>Tuesday 15.30 - 01.00</p>
+        <p>Wednesday 15.30 - 01.00</p>
+        <p>Thursday 15.30 - 01.00</p>
       </div>
       <div class="w3-col s6">
-        <p>Friday 10:00 - 12:00</p>
-        <p>Saturday 10:00 - 23:00</p>
-        <p>Sunday Closed</p>
+        <p>Friday 15.30 - 03.00</p>
+        <p>Saturday 15.30 - 03.00</p>
+        <p>Sunday 15.30 - 01.00</p>
       </div>
     </div>
     
@@ -118,11 +143,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451.91043076218097!2d121.54948541868607!3d25.024453152217145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa31f54c44e1%3A0xf911c89d4a5573c9!2zVEVBQmFy57Gz6JOu5aic6aSQ6YWS5ZCn!5e0!3m2!1szh-TW!2stw!4v1761010457945!5m2!1szh-TW!2stw" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <!-- Contact -->
-<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+<div id="myMap" class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
-    <p>Find us at some address at some place or call us at 05050515-122330</p>
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p>Find us at some address at some place or call us at 02 8732 9939</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>;" id="myMap"
     <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
