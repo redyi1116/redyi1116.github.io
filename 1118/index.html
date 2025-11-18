@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    
+    <!-- 1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>114「教學科技應用設計競賽」實施辦法</title>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <h1 style="color:#222;">114「教學科技應用設計競賽」實施辦法</h1>
+    
+    <style>
+      /* 將頁面中 body 的 h1 縮小，僅影響主要標題顯示 */
+      body h2 {
+        font-size: 1.5em;
+        line-height: 1.2;
+        margin: 0.5rem 0;
+        color: #1756a9;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      body h1 {
+        color: #1756a9;
+        font-size: 2.2em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 0.5em;
+      }
+      body {
+        background: #f8fbff;
+        color: #222;
+        font-family: 'Noto Sans TC', 'Microsoft JhengHei', Arial, sans-serif;
+      }
+      /* NavBar 藍底白字，hover 較深藍 */
+      .w3-bar {
+        background: none !important;
+        box-shadow: none !important;
+        border: none !important;
+      }
+      .w3-bar .w3-bar-item {
+        color: #1756a9 !important;
+        background: none !important;
+        font-weight: 500;
+        transition: background 0.2s, color 0.2s;
+        margin: 0 1.2em !important;
+        /* 增加左右間距 */
+      }
+      .w3-bar .w3-bar-item:hover, .w3-bar .w3-bar-item:focus {
+        background: #eaf3fc !important;
+        color: #0d3870 !important;
+      }
+      /* 主辦單位小字 */
+      .main-org {
+        background: none;
+        color: #222;
+        font-size: 0.95rem;
+        text-align: left;
+        padding: 2px 0 2px 16px;
+        border: none;
+        box-shadow: none;
+        letter-spacing: 1px;
+      }
+      /* 表格藍色標題、淺藍底、細邊框 */
+      .table-bordered th, .table-bordered td {
+        border: 1px solid #b5d0f3 !important;
+      }
+      .table thead {
+        background: #eaf3fc !important;
+        color: #1756a9;
+        font-weight: 600;
+      }
+      .table tbody tr {
+        background: #fff;
+      }
+      .table tbody tr:nth-child(even) {
+        background: #f3f8fd;
+      }
+      /* 卡片流程圖藍色邊框 */
+      .card {
+        border: 1.5px solid #1756a9;
+        border-radius: 0.7rem;
+        box-shadow: 0 2px 8px rgba(23,86,169,0.04);
+      }
+      .card-body b {
+        color: #1756a9;
+      }
+      /* footer 藍色細字 */
+      footer, .text-body-secondary {
+        color: #1756a9 !important;
+      }
+      /* 連結顏色 */
+      a, a:visited {
+        color: #1756a9;
+      }
+      a:hover {
+        color: #0d3870;
+        text-decoration: underline;
+      }
+    </style>
+    
+    <h2 style="color:#222; font-size:1.05em; font-weight:normal; margin-top:1.5em; margin-bottom:1.5em;">為鼓勵學生將數位科技應用於教學現場，強化教材設計與創作能力，特舉辦本競賽，期望學生能靈活運用 VR、AI 技術及 Apple 教育工具，並結合數位媒體、互動設計及多元評量方式，設計具創新性與實用性的教學應用，進而增強學生於各領域之數位內容科技創建能力。</h2>  
+
+</head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#rules" class="w3-bar-item w3-button">競賽辦法</a>
+    <a href="#topic" class="w3-bar-item w3-button">競賽主題與組別</a>
+    <a href="#signup" class="w3-bar-item w3-button">報名方式及日程</a>
+    <a href="#process" class="w3-bar-item w3-button">競賽流程</a>
+    <a href="#criteria" class="w3-bar-item w3-button">評審標準</a>
+    <a href="#award" class="w3-bar-item w3-button">獎勵辦法</a>
+    <a href="#note" class="w3-bar-item w3-button">注意事項</a>
+  </div>
+  <div class="main-org" style="color:#222;">
+    主辦單位：國立臺北教育大學教學發展中心
+  </div>
+</div>
+    <!--主要-->
+    <section id="rules" style="margin-top:48px;">
+      <h2 id="rules-title">競賽辦法</h2>
+      <ol style="font-size:1rem; color:#222;">
+        <li>參加對象：本校在學學生（含學士班、碩士班、碩士在職專班）。</li>
+        <li>每團隊成員人數1至4人，並可邀請老師1名擔任團隊指導老師。</li>
+        <li>每位學生最多可報名2件作品，但同一作品不得重複投件於不同類別。</li>
+      </ol>
+    </section>
+    
+    <section id="topic" style="margin-top:48px;">
+      <h2 id="topic-title">競賽主題與組別</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle" style="background:#fff;">
+          <thead class="table-light">
+            <tr>
+              <th style="width: 180px;">組別</th>
+              <th>說明</th>
+            </tr>
+          </thead>
+          <tbody style="font-size:1rem; color:#222;">
+            <tr>
+              <td>Uptale VR 教學應用設計組</td>
+              <td>設計沉浸式教學場景，可包含與國小課程教材相關內容、各層面之教育議題、與真實情境有關之教學應用與學習規劃，展現虛擬實境於教學現場之應用潛能。</td>
+            </tr>
+            <tr>
+              <td>AI 小工具教學創新應用組</td>
+              <td>發展AI工具（如 ChatGPT、生成式AI、學習分析工具等）於教學現場的應用，解決學習難題或提升學習成效。</td>
+            </tr>
+            <tr>
+              <td>Apple 教育應用設計組</td>
+              <td>可包含教案設計（結合 iPad、Mac 等 Apple 生態系工具的數位教學設計），或應用程式設計（自行開發或利用Swift/Swift Playgrounds等進行教育應用創作）。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="signup" style="margin-top:48px;">
+      <h2 id="signup-title">報名方式及日程</h2>
+      <ol style="font-size:1rem; color:#222;">
+        <li>競賽報名：自即日起至114年11月7日(五)截止。<br>
+          競賽報名網址：<a href="https://forms.gle/Hs9SkDYpiAaB2J9p6" target="_blank">https://forms.gle/Hs9SkDYpiAaB2J9p6</a>
+        </li>
+        <li>繳件時間：自即日起至114年12月14日(日)截止。</li>
+        <li>得獎名單公布：預計於115年1月底於「教學發展中心」網頁公布得獎名單，並以Email或電話通知領獎。</li>
+      </ol>
+    </section>
+    <section id="process" style="margin-top:48px;">
+      <h2 id="process-title">競賽流程</h2>
+      <div class="d-flex flex-column align-items-center" style="gap:0.5rem;">
+        <div class="card w-100" style="max-width:600px;">
+          <div class="card-body">
+            <b>1. 競賽報名</b><br>
+            本競賽採網路線上報名，請填妥報名資料表並上傳完成報名。<br>
+            <span style="color:#888; font-size:0.95em;">※報名Uptale VR教學應用設計組，將於完成競賽報名後以組別為單位開通競賽用Uptale VR帳號，並以Email通知。</span>
+          </div>
+        </div>
+        <div style="font-size:2rem; color:#888;">↓</div>
+        <div class="card w-100" style="max-width:600px;">
+          <div class="card-body">
+            <b>2. 繳件資料</b><br>
+            <ul style="margin-bottom:0;">
+              <li>計畫書：格式為PDF檔，內容須包含(1)競賽組別、作品名稱、團隊介紹(2)創作理念 (3)教學目標(4)教學內容規劃(5)預期成效。</li>
+              <li>成品：如Uptale VR成品、AI工具應用 Demo、Apple教案或應用程式原型。</li>
+              <li>作品導覽影片：格式為 mp4 檔，時間長度限制 10 分鐘內，解析度HD1080P（1920X1080），影片請上傳至 Youtube，並提供影片連結。</li>
+              <li>個人資料保護聲明暨數位內容授權書。</li>
+            </ul>
+          </div>
+        </div>
+        <div style="font-size:2rem; color:#888;">↓</div>
+        <div class="card w-100" style="max-width:600px;">
+          <div class="card-body">
+            <b>3. 繳交方式</b><br>
+            <ul style="margin-bottom:0;">
+              <li>請將檔案依規定備妥後，繳交上傳至：<a href="https://forms.gle/PQ1AEJ1xBo3yRTZd6" target="_blank">https://forms.gle/PQ1AEJ1xBo3yRTZd6</a></li>
+              <li>檔案命名方式：編號_團隊名_作品名_檔名（依照內容命名），請將前揭檔案壓縮為zip檔再上傳。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="criteria" style="margin-top:48px;">
+      <h2 id="criteria-title">評審標準</h2>
+      <div class="table-responsive">
+        <div style="text-align:center; font-weight:bold; font-size:1.2rem; margin-bottom:0.5rem;">評審標準</div>
+        <table class="table table-bordered align-middle" style="background:#fff; max-width:600px; margin:auto;">
+          <thead class="table-light">
+            <tr>
+              <th style="width:60%">評分項目</th>
+              <th style="width:20%">配分</th>
+              <th>說明</th>
+            </tr>
+          </thead>
+          <tbody style="font-size:1rem; color:#222;">
+            <tr>
+              <td>完整性</td>
+              <td>40%</td>
+              <td>作品內容是否完整，資料、說明、展示等是否齊全，能否充分呈現教學應用設計之全貌。</td>
+            </tr>
+            <tr>
+              <td>創意表現及互動應用</td>
+              <td>30%</td>
+              <td>作品是否具備創新想法，並能有效結合互動設計，提升教學成效與學習動機。</td>
+            </tr>
+            <tr>
+              <td>實踐效益及未來延展性</td>
+              <td>30%</td>
+              <td>作品於實際教學現場的應用成效，以及未來推廣、擴充或延伸應用的潛力。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="award" style="margin-top:48px;">
+      <h2 id="award-title">獎勵辦法</h2>
+      <ol style="font-size:1rem; color:#222;">
+        <li>特優（1件）：獎金新台幣8,000元，每人獎狀1張。</li>
+        <li>優選（1件）：獎金新台幣5,000元，每人獎狀1張。</li>
+        <li>佳作（2件）：獎金新台幣2,000元，每人獎狀1張。</li>
+      </ol>
+      <div style="font-size:0.95rem; color:#666; margin-top:0.5rem;">
+        註：主辦方得視參賽件數或作品水準，由評審委員決議並調整獲獎情形，名次件數得調整或從缺。
+      </div>
+    </section>
+    <section id="note" style="margin-top:48px;">
+      <h2 id="note-title">注意事項</h2>
+      <ol style="font-size:1rem; color:#222;">
+        <li>參賽作品需為參賽者/參賽隊伍自行開發、編制之創作，如有涉及智慧財產權侵害之情事者，經主辦單位確認後，相關法律責任由參賽者/參賽隊伍自行負責，並取消其參賽資格，如有得獎將追回獎項及獎金。</li>
+        <li>本競賽屬非營利且具有教育性質，若使用非原創素材時，須註明使用之素材來源，包括圖片（註明圖像光碟出版者、圖庫版權商、攝影者、出版商等）、音樂（註明音樂詞、曲作者、編曲者、演唱人、歌名及唱片發行公司）等相關資料。</li>
+        <li>各參賽作品之著作人格權，歸屬參賽隊伍個別擁有，但主辦單位擁有為推廣活動及教育目的之重製、修改、下載及公開展示等著作財產權權利。</li>
+        <li>後續視成果發表與推廣需求，主辦單位得邀請獲獎隊伍參加相關課程與活動。</li>
+      </ol>
+    </section>
+    <!--FOOTER-->
+  
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+          <span class="mb-3 mb-md-0 text-body-secondary w-100 text-center">本案經費來源由教育部高教深耕計畫經費項下支應</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true">
+                <use xlink:href="#instagram"></use></svg></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use></svg></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
