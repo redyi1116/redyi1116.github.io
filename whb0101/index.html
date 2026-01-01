@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我真他媽的天才</title>
+  <style>
+    body {
+      font-family: 'Noto Sans TC', Arial, sans-serif;
+      background: #f7f9fc;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background: #009688;
+      color: #fff;
+      text-align: center;
+      padding: 36px 0 24px 0;
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .main {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,150,136,0.10);
+      padding: 32px 24px;
+      font-size: 1.15em;
+      color: #333;
+      line-height: 2;
+    }
+    .footer {
+      text-align: center;
+      color: #009688;
+      font-size: 1em;
+      margin: 48px 0 16px 0;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">基本網頁</div>
+  <div class="card-demo" style="max-width:400px;margin:48px auto;background:#fff;border-radius:14px;box-shadow:0 2px 12px #00968833;padding:32px 24px;text-align:center;">
+    <h2 style="color:#009688;font-size:1.3em;font-weight:bold;margin-bottom:16px;">複製邀請碼</h2>
+    <div style="display:flex;align-items:center;justify-content:center;">
+      <span id="copyText" style="color:#333;font-size:1.18em;letter-spacing:2px;">56317928520008384595</span>
+      <button onclick="copyCardText()" style="margin-left:16px;padding:6px 16px;font-size:1em;border-radius:6px;border:none;background:#009688;color:#fff;cursor:pointer;">COPY</button>
+    </div>
+  </div>
+  <script>
+    function copyCardText() {
+      const text = document.getElementById('copyText').innerText;
+      navigator.clipboard.writeText(text).then(function() {
+        alert('已複製: ' + text);
+      }, function() {
+        alert('複製失敗');
+      });
+    }
+  </script>
+  <div class="footer">
+    &copy; Redyi1116
+  </div>
+</body>
+</html>
